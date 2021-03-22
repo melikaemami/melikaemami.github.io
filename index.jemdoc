@@ -1,0 +1,50 @@
+# jemdoc: menu{MENU}{index.html}
+= Melikasadat Emami
+
+~~~
+{}{img_left}{Melika.jpg}{alt text}{240.8px}{240.8px}{}
+
+
+Ph.D. Candidate \n 
+Department of Electrical and Computer Engineering \n
+University of California, Los Angeles (UCLA)  \n
+Contact: emami \[at\] ucla \[dot\] edu \n
+\n
+[https://scholar.google.com/citations?user=_EBiGQEAAAAJ&hl=en Google Scholar] \n
+[https://www.linkedin.com/in/melikasadat-emami-7505a98a/ LinkedIn]\n
+[https://github.com/melikaemami GitHub]
+
+~~~
+
+
+== About Me
+I am a Ph.D. candidate in ECE department at UCLA working under the supervision of [https://scholar.google.com/citations?user=MCClSvsAAAAJ&hl=en Prof. Alyson Fletcher] and [https://wireless.engineering.nyu.edu/sundeep-rangan/ Prof. Sundeep Rangan]. I received my Master’s degree at UCLA in 2018, and my Bachelor's degree at University of Tehran in 2016, both in Electrical and Computer Engineering.
+
+
+
+== Research Interests
+My research is focused on theoretical machine learning with the broad goal of understanding the asymptotic of learning in deep neural networks. I apply tools from high-dimensional statistics and large-scale optimization to provide rigorous theoretical guarantees for learning and generalization in machine learning problems. I am also interested in high-dimensional time series models with applications to computational neuroscience such as modeling complex neural sensory responses in the brain.
+
+
+== News
+
+- *March 2021:* I will join Microsoft as a Research Intern in Spring 2021. 
+
+- *March 2021:* I am a Ph.D Candidate now.
+
+- *January 2021:* New preprint available on arXiv: [https://arxiv.org/pdf/2101.07833.pdf Implicit Bias of Linear RNNs]
+
+- *July 2020:* Presenting our paper at ICML 2020. [https://icml.cc/virtual/2020/poster/6565 \[video\]] 
+[https://github.com/melikaemami/Posters_and_Slides/blob/main/ICML2020_slides.pdf \[slides\]]
+
+- *May 2020:* Paper accepted at ICML 2020: [http://proceedings.mlr.press/v119/emami20a.html Generalization Error of Generalized Linear Models in High Dimensions]
+
+- *February 2020:* Presenting our recent work at ITA 2020, San Diego, CA. 
+
+- *October 2019:* Presenting our recent work at DeepMath 2019, New York, NY. [https://github.com/melikaemami/Posters_and_Slides/blob/main/DeepMath2019.pdf \[poster\]]
+
+- *September 2019:* Paper accepted at NeurIPS 2019: [https://proceedings.neurips.cc/paper/2019/file/9c449771d0edc923c2713a7462cefa3b-Paper.pdf Input-Output Equivalence of Unitary and Contractive RNNs]
+
+- *November 2018:* Presenting our recent work at Society for Neuroscience Meeting 2018, San Diego, CA. [https://github.com/melikaemami/Posters_and_Slides/blob/main/ccnPoster-2.pdf \[poster\]]
+
+- *September 2018:* Presenting our paper at CCN, philadelphia, PA: [https://ccneuro.org/2018/Papers/ViewPapers.asp?PaperNum=1276 Low-Rank Nonlinear Decoding of $\mu$-ECoG from the Primary Auditory Cortex]

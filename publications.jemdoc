@@ -1,0 +1,32 @@
+# jemdoc: menu{MENU}{index.html}
+= Publications
+
+== Preprints
+- *Implicit Bias of Linear RNNs*, /arXiv preprint/. [https://arxiv.org/abs/2101.07833 \[arXiv\]]\n
+*M. Emami*, M. Sahraee-Ardakan, P. Pandit, S. Rangan, AK. Fletcher \n
+Recurrent Neural Networks and their variants have been widely used in modeling sequential data and dynamical systems.  The conventional wisdom suggests that vanilla RNNs cannot capture long-term memory.  Despite the large number of proposed methods and architectures to overcome this issue, there has not been a precise theoretical analysis for this phenomenon.  Even linear RNNs have been difficult to analyze completely due to their non-linear parameterization.  As a starting point, using the kernel regime-based analysis, this work characterizes the implicit bias of linear RNNs trained  with  gradient  descent  towards  short-term  memory.   This  confirms  the  empirically  observed  behavior  of RNNs, i.e., not being able to capture long-term dependencies.  Interestingly, our analysis reveals that this bias is
+closely related to the random initialization of linear RNNs.
+
+
+== Conference Articles
+- *Generalization Error of Generalized Linear Models in High Dimensions*. In /International Conference on Machine Learning (ICML),/ 2020. [http://proceedings.mlr.press/v119/emami20a.html \[paper\]] [https://icml.cc/virtual/2020/poster/6565 \[video\]]\n
+*M. Emami*, M. Sahraee-Ardakan, P. Pandit, S. Rangan, AK. Fletcher \n
+At the heart of machine learning lies the question of generalizability of learned rules over previously unseen data.  Increasing use of machine learning models in critical applications such as healthcare, autonomous driving, policy making, etc., calls for a detailed understanding of the underlying models for accountability and robustness.  Therefore, providing methods to quantify the generalization error of these models becomes crucial in assessing their fitness for use.  Bearing that in mind, this work considers Generalized Linear Models (GLMs) (i.e., single-layer neural networks) in the over-parameterized regime and provides a unified framework to exactly characterize the generalization error.  The results are more general than the prior analyses in this area and hold for a large class of generalization metrics, loss functions, and regularization schemes.  Also, in this framework we can capture a larger class of statistical models for  the  features  as  well  as  a  distributional  mismatch  between  training  and  test  datasets.
+
+
+- *Input-Output Equivalence of Unitary and Contractive RNNs*. In /Advances in Neural Information Processing Systems (NeurIPS),/ 2019. [https://proceedings.neurips.cc/paper/2019/file/9c449771d0edc923c2713a7462cefa3b-Paper.pdf \[paper\]] [https://arxiv.org/abs/1910.13672 \[arXiv\]]\n
+*M. Emami*, M. Sahraee-Ardakan, S. Rangan, AK. Fletcher \n
+This work aims to  rigorously  understand  a  constrained  version  of  Recurrent Neural Networks (RNNs). Training RNNs suffers from the so-called vanishing/exploding gradients problem.  The unitary RNN is a simple approach to mitigate this problem by imposing a unitary constraint on these networks.  A key question here is how restrictive this unitary constraint is on an RNN.  We theoretically show that for RNNs with ReLU activations, there is no loss in the expressiveness of the model from imposing the unitary constraint.
+
+- *Low-Rank Nonlinear Decoding of $\mu$-ECoG from the Primary Auditory Cortex*. In /Conference  on  Cognitive  Computational Neuroscience (CCN),/ 2018. [https://ccneuro.org/2018/Papers/ViewPapers.asp?PaperNum=1276 \[paper\]] [https://arxiv.org/abs/2005.05053 \[arXiv\]]\n
+*M. Emami*, M. Sahraee-Ardakan, P. Pandit, AK. Fletcher, S. Rangan, M. Trumpis, B. Bent, C. Chiang, J. Viventi \n
+This work considers  using  deep  recurrent  networks  for  modeling  complex  neural  sensory  responses  in  the  brain.   A  key challenge is the relatively large number of parameters for these models relative to the available data. We developed a framework for decoding high-dimensional neural responses from the rat auditory cortex. We found that a neural network with a low-rank initial layer can provide significant model improvements compared totraditional decoding models.
+
+
+
+
+
+
+
+
+
