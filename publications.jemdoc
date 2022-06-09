@@ -2,13 +2,16 @@
 = Publications
 
 == Preprints
-- *Implicit Bias of Linear RNNs*, /arXiv preprint/. [https://arxiv.org/abs/2101.07833 \[arXiv\]]\n
-*M. Emami*, M. Sahraee-Ardakan, P. Pandit, S. Rangan, AK. Fletcher \n
-Recurrent Neural Networks and their variants have been widely used in modeling sequential data and dynamical systems.  The conventional wisdom suggests that vanilla RNNs cannot capture long-term memory.  Despite the large number of proposed methods and architectures to overcome this issue, there has not been a precise theoretical analysis for this phenomenon.  Even linear RNNs have been difficult to analyze completely due to their non-linear parameterization.  As a starting point, using the kernel regime-based analysis, this work characterizes the implicit bias of linear RNNs trained  with  gradient  descent  towards  short-term  memory.   This  confirms  the  empirically  observed  behavior  of RNNs, i.e., not being able to capture long-term dependencies.  Interestingly, our analysis reveals that this bias is
-closely related to the random initialization of linear RNNs.
+
 
 
 == Conference Articles
+- *Implicit Bias of Linear RNNs*. In /International Conference on Machine Learning (ICML),/ 2021. [https://proceedings.mlr.press/v139/emami21b \[paper\]] [https://icml.cc/virtual/2021/poster/10445 \[video\]]\n
+*M. Emami*, M. Sahraee-Ardakan, P. Pandit, S. Rangan, AK. Fletcher \n
+Contemporary wisdom based on empirical studies suggests that standard recurrent neural networks (RNNs) do not perform well on tasks requiring long-term memory. However, RNNs' poor ability to capture long-term dependencies has not been fully understood. This paper provides a rigorous explanation of this property in the special case of linear RNNs. Although this work is limited to linear RNNs, even these systems have traditionally been difficult to analyze due to their non-linear parameterization. Using recently-developed kernel regime analysis, our main result shows that as the number of hidden units goes to infinity, linear RNNs learned from random initializations are functionally equivalent to a certain weighted 1D-convolutional network. Importantly, the weightings in the equivalent model cause an implicit bias to elements with smaller time lags in the convolution, and hence shorter memory. The degree of this bias depends on the variance of the transition matrix at initialization and is related to the classic exploding and vanishing gradients problem. The theory is validated with both synthetic and real data experiments.
+
+
+
 - *Generalization Error of Generalized Linear Models in High Dimensions*. In /International Conference on Machine Learning (ICML),/ 2020. [http://proceedings.mlr.press/v119/emami20a.html \[paper\]] [https://icml.cc/virtual/2020/poster/6565 \[video\]]\n
 *M. Emami*, M. Sahraee-Ardakan, P. Pandit, S. Rangan, AK. Fletcher \n
 At the heart of machine learning lies the question of generalizability of learned rules over previously unseen data.  Increasing use of machine learning models in critical applications such as healthcare, autonomous driving, policy making, etc., calls for a detailed understanding of the underlying models for accountability and robustness.  Therefore, providing methods to quantify the generalization error of these models becomes crucial in assessing their fitness for use.  Bearing that in mind, this work considers Generalized Linear Models (GLMs) (i.e., single-layer neural networks) in the over-parameterized regime and provides a unified framework to exactly characterize the generalization error.  The results are more general than the prior analyses in this area and hold for a large class of generalization metrics, loss functions, and regularization schemes.  Also, in this framework we can capture a larger class of statistical models for  the  features  as  well  as  a  distributional  mismatch  between  training  and  test  datasets.
